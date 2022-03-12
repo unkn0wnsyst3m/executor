@@ -45,7 +45,7 @@ func (c *command) run(dir string) error {
 	cmd.Stdout = io.MultiWriter(outputs...)
 	cmd.Stderr = c.stderr
 	// log.Printf("%+v\n", *c)
-	return cmd.Run()
+	return cmd.Start()
 }
 
 // Exec command
