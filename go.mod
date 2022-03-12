@@ -1,4 +1,4 @@
-module github.com/solar-jsoc/executor
+module github.com/unkn0wnsyst3m/executor
 
 go 1.17
 
